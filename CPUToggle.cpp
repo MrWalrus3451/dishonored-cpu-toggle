@@ -13,7 +13,7 @@ using namespace std;
 void printState(int maxCores, int minCores, bool limiting) {
     system("cls");
     std::cout << ("Max cores: " + std::to_string(maxCores));
-    std::cout << ("\nMin Cores: " + std::to_string(minCores));
+    std::cout << ("\nMin cores: " + std::to_string(minCores));
     if (limiting) {
         std::cout << "\n\nLimiting Dishonored!";
     }
